@@ -93,13 +93,10 @@ public static class PresentationInjector
 
     private static void CorsOptions(CorsOptions options)
     {
-        options.AddPolicy("AllowAll",
-            policy =>
-            {
-                policy.WithOrigins("http://localhost:3000")
-                    .AllowAnyHeader()
-                    .AllowAnyMethod()
-                    .AllowCredentials();
-            });
+        options.AddPolicy("AllowAll", b => b
+            .AllowAnyMethod()
+            .AllowAnyHeader()
+            .AllowCredentials()
+        );
     }
 }

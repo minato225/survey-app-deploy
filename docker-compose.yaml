@@ -8,7 +8,7 @@
       dockerfile: Dockerfile
     ports:
       - "5000:8000"
-      - "5001:8001"
+      - "443:443"
   
   postgres-db:
     image: postgres:latest
