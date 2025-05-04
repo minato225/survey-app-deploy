@@ -9,7 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae1b2146-3fdb-4eb2-92e3-b5415b01ecbf" name="Changes" comment="add ci cd" />
+    <list default="true" id="ae1b2146-3fdb-4eb2-92e3-b5415b01ecbf" name="Changes" comment="tests 1">
+      <change beforePath="$PROJECT_DIR$/src/SurveyApp.Presentation/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/SurveyApp.Presentation/appsettings.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,8 +43,11 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/70a31c013ad64f2e9ea547abc18dc0527c00/d7/e82a5bcf/HttpsPolicyBuilderExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8645a453ee69429a93b9d7c90ce3b89514200/c8/53a6dd55/CorsMiddlewareExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/rdoskoch/diploma/deploy-test/src/SurveyApp.Presentation/Controllers/TechController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/rdoskoch/diploma/deploy-test/src/SurveyApp.Presentation/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/rdoskoch/diploma/deploy-test/src/SurveyApp.Presentation/appsettings.Development.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/rdoskoch/diploma/deploy-test/src/SurveyApp.Presentation/appsettings.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/rdoskoch/diploma/deploy-test/src/SurveyApp.Presentation/appsettings.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock:///Users/rdoskoch/diploma/deploy-test/src/SurveyApp.Presentation/appsettings.json" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
@@ -58,19 +63,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Launch Settings Profile.SurveyApp.Presentation: http.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Launch Settings Profile.SurveyApp.Presentation: http.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.SurveyApp.Presentation: http">
     <configuration name="SurveyApp.Presentation: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/src/SurveyApp.Presentation/SurveyApp.Presentation.csproj" />
@@ -146,7 +151,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746387039162</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="tests 1">
+      <option name="closed" value="true" />
+      <created>1746394609112</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1746394609112</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,6 +184,7 @@
     <MESSAGE value="add supa base db" />
     <MESSAGE value="add https" />
     <MESSAGE value="add ci cd" />
-    <option name="LAST_COMMIT_MESSAGE" value="add ci cd" />
+    <MESSAGE value="tests 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="tests 1" />
   </component>
 </project>
