@@ -32,6 +32,9 @@ public class TechController(
             .ToArray();
     }
 
-    [HttpGet]
-    public IEnumerable<int> GetDump() => [1, 2, 3];
+    [HttpGet("get1")]
+    public IActionResult Get1()
+    {
+        return Ok(Summaries);
+    }
 }
