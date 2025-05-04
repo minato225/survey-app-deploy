@@ -31,4 +31,7 @@ public class TechController(
             })
             .ToArray();
     }
+
+    [HttpGet]
+    public IEnumerable<int> GetDump() => [1, 2, 3];
 }
