@@ -1,0 +1,8 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <ItemGroup>
+        <ProjectReference Include="..\SurveyApp.ExternalServices\SurveyApp.ExternalServices.csproj" />
+        <ProjectReference Include="..\SurveyApp.Infrastructure\SurveyApp.Infrastructure.csproj" />
+    </ItemGroup>
+
+</Project>

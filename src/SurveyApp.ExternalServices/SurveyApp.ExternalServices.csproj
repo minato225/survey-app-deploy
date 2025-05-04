@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <ItemGroup>
+        <PackageReference Include="BCrypt.Net-Next"/>
+        <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\SurveyApp.Domain\SurveyApp.Domain.csproj"/>
+    </ItemGroup>
+
+</Project>

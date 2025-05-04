@@ -1,0 +1,28 @@
+﻿services:
+  
+  backend-api:
+    image: survey-api
+    container_name: survey-api
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "5000:8000"
+      - "5001:8001"
+  
+  postgres-db:
+    image: postgres:latest
+    user: postgres
+    environment:
+      POSTGRES_DB: SurveyAppDb
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 7yuffhjgjkdpip79AK19
+    volumes:
+      - ./containers/db:/var/lib/postgresql/data
+    healthcheck:
+      test: [ "CMD", "pg_isready", "-U", "postgres" ]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    ports:
+      - "5432:5432"
