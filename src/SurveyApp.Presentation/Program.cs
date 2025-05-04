@@ -32,9 +32,9 @@ app.UseMiddleware<GlobalExceptionHandlerMiddleware>();
 
 app.MapControllers();
 
-// await using (var scope = app.Services.CreateAsyncScope())
-// {
-//     await scope.ServiceProvider.GetRequiredService<AppDbContext>().Database.MigrateAsync();
-// }
+await using (var scope = app.Services.CreateAsyncScope())
+{
+    await scope.ServiceProvider.GetRequiredService<AppDbContext>().Database.MigrateAsync();
+}
 
 app.Run();
