@@ -17,11 +17,9 @@ public static class InfrastructureInjector
                     npgsqlOptions =>
                     {
                         npgsqlOptions.EnableRetryOnFailure(
-                            maxRetryCount: 3,
-                            maxRetryDelay: TimeSpan.FromSeconds(100),
+                            maxRetryCount: 7,
+                            maxRetryDelay: TimeSpan.FromSeconds(30),
                             errorCodesToAdd: null);
-                        
-                        npgsqlOptions.CommandTimeout(300); // 5 minutes
                     }));
         ;
 
